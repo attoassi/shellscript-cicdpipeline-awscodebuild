@@ -5,7 +5,7 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      python: 3.x # optional : we don't have install python in the container to build the image
+      python: 3.x # optional we don't have install python in the container to build the image
 
   pre_build:
     commands:

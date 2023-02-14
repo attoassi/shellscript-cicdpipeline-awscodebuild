@@ -13,6 +13,6 @@ docker login --username $DOCKER_HUB_USERNAME --password $DOCKER_HUB_PASSWORD
 docker tag $IMAGE_TAG $DOCKER_HUB_USERNAME/$DOCKER_HUB_REPO_NAME
 
 # push the image to your docker hub repository
-# sudo docker push attodoker/techproject
+# sudo docker push attodoker/image-build-codebuild
 
 docker push $DOCKER_HUB_USERNAME/$DOCKER_HUB_REPO_NAME
