@@ -4,6 +4,6 @@
 set -eu
 
 # build the docker image
-# sudo docker build -t techproject .
-# add environment variable to the docker build command that will be used by code build to build multiple imaged
+
+# add environment variable to the docker build command that will be used by code build to build multiple images
 docker build -f $IMAGE_TAG/Dockerfile -t $IMAGE_TAG .
